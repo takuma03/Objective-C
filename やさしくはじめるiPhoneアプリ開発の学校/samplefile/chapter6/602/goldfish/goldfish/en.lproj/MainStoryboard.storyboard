@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2843" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1929"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="water.png" id="Cqn-zQ-E4w">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="poi1.png" id="LIF-rS-MIf">
+                                <rect key="frame" x="150" y="310" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish1.png" id="qVg-3j-LML">
+                                <rect key="frame" x="26" y="36" width="95" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish1.png" id="iwR-93-EQt">
+                                <rect key="frame" x="27" y="84" width="93" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish1.png" id="iSY-6C-8zX">
+                                <rect key="frame" x="156" y="36" width="87" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish1.png" id="dE8-8e-BRz">
+                                <rect key="frame" x="163" y="195" width="55" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish1.png" id="ZDq-KX-vyt">
+                                <rect key="frame" x="157" y="87" width="85" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish1.png" id="oAX-UO-ETM">
+                                <rect key="frame" x="26" y="135" width="105" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish1.png" id="eY2-Td-uAu">
+                                <rect key="frame" x="31" y="188" width="100" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish2.png" id="cph-Xn-gj5">
+                                <rect key="frame" x="41" y="250" width="85" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish2.png" id="sZ2-Tm-mcS">
+                                <rect key="frame" x="44" y="310" width="69" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="fish1.png" id="7m3-l8-d2c">
+                                <rect key="frame" x="161" y="145" width="58" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="fish1" destination="qVg-3j-LML" id="pyt-pf-PLV"/>
+                        <outlet property="fish10" destination="sZ2-Tm-mcS" id="GN1-S8-itG"/>
+                        <outlet property="fish2" destination="iSY-6C-8zX" id="4Ww-6A-plT"/>
+                        <outlet property="fish3" destination="iwR-93-EQt" id="Hkm-es-Mbb"/>
+                        <outlet property="fish4" destination="ZDq-KX-vyt" id="CVL-qs-FLW"/>
+                        <outlet property="fish5" destination="oAX-UO-ETM" id="9vS-80-2Jo"/>
+                        <outlet property="fish6" destination="7m3-l8-d2c" id="HsX-4q-uAz"/>
+                        <outlet property="fish7" destination="eY2-Td-uAu" id="D6z-8X-9OM"/>
+                        <outlet property="fish8" destination="dE8-8e-BRz" id="JZT-1m-0eX"/>
+                        <outlet property="fish9" destination="cph-Xn-gj5" id="u8U-Aw-ys9"/>
+                        <outlet property="poi" destination="LIF-rS-MIf" id="htn-fa-LXY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38" y="175"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fish1.png" width="180" height="52"/>
+        <image name="fish2.png" width="144" height="76"/>
+        <image name="poi1.png" width="300" height="300"/>
+        <image name="water.png" width="640" height="960"/>
+    </resources>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="replayGame:"/>
+                <relationship kind="action" name="startGame:"/>
+                <relationship kind="outlet" name="endingView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish1" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish10" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish2" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish3" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish4" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish5" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish6" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish7" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish8" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="fish9" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="poi" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="poiCount" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="replayBtn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="startBtn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="titleView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

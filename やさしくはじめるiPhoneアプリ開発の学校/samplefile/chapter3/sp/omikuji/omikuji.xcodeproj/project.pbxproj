@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9DB1F401631A7C900E564A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DB1F3F1631A7C900E564A7 /* UIKit.framework */; };
+		A9DB1F421631A7C900E564A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DB1F411631A7C900E564A7 /* Foundation.framework */; };
+		A9DB1F441631A7C900E564A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DB1F431631A7C900E564A7 /* CoreGraphics.framework */; };
+		A9DB1F4A1631A7C900E564A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F481631A7C900E564A7 /* InfoPlist.strings */; };
+		A9DB1F4C1631A7C900E564A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DB1F4B1631A7C900E564A7 /* main.m */; };
+		A9DB1F501631A7C900E564A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DB1F4F1631A7C900E564A7 /* AppDelegate.m */; };
+		A9DB1F521631A7C900E564A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F511631A7C900E564A7 /* Default.png */; };
+		A9DB1F541631A7C900E564A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F531631A7C900E564A7 /* Default@2x.png */; };
+		A9DB1F591631A7C900E564A7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F571631A7C900E564A7 /* MainStoryboard.storyboard */; };
+		A9DB1F5C1631A7C900E564A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DB1F5B1631A7C900E564A7 /* ViewController.m */; };
+		A9DB1F641631AAC600E564A7 /* kuji_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F621631AAC600E564A7 /* kuji_1.jpg */; };
+		A9DB1F651631AAC600E564A7 /* kuji_top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F631631AAC600E564A7 /* kuji_top.jpg */; };
+		A9DB1F6D1631AC9100E564A7 /* kuji_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F6A1631AC9100E564A7 /* kuji_2.jpg */; };
+		A9DB1F6E1631AC9100E564A7 /* kuji_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F6B1631AC9100E564A7 /* kuji_3.jpg */; };
+		A9DB1F6F1631AC9100E564A7 /* kuji_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F6C1631AC9100E564A7 /* kuji_4.jpg */; };
+		A9DB1F731631AC9900E564A7 /* bt_kuji.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F711631AC9900E564A7 /* bt_kuji.png */; };
+		A9DB1F741631AC9900E564A7 /* bt_top.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1F721631AC9900E564A7 /* bt_top.png */; };
+		A9DB1FAE1631B3DD00E564A7 /* otsuge_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FA71631B3DD00E564A7 /* otsuge_1.png */; };
+		A9DB1FAF1631B3DD00E564A7 /* otsuge_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FA81631B3DD00E564A7 /* otsuge_2.png */; };
+		A9DB1FB01631B3DD00E564A7 /* otsuge_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FA91631B3DD00E564A7 /* otsuge_3.png */; };
+		A9DB1FB11631B3DD00E564A7 /* otsuge_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FAA1631B3DD00E564A7 /* otsuge_4.png */; };
+		A9DB1FB21631B3DD00E564A7 /* otsuge_5.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FAB1631B3DD00E564A7 /* otsuge_5.png */; };
+		A9DB1FB31631B3DD00E564A7 /* otsuge_6.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FAC1631B3DD00E564A7 /* otsuge_6.png */; };
+		A9DB1FB41631B3DD00E564A7 /* otsuge_7.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FAD1631B3DD00E564A7 /* otsuge_7.png */; };
+		A9DB1FB61631B46500E564A7 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FB51631B46500E564A7 /* icon@2x.png */; };
+		A9DB1FB81631B46800E564A7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DB1FB71631B46800E564A7 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9DB1F3B1631A7C900E564A7 /* omikuji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omikuji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DB1F3F1631A7C900E564A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9DB1F411631A7C900E564A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9DB1F431631A7C900E564A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9DB1F471631A7C900E564A7 /* omikuji-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "omikuji-Info.plist"; sourceTree = "<group>"; };
+		A9DB1F491631A7C900E564A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9DB1F4B1631A7C900E564A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9DB1F4D1631A7C900E564A7 /* omikuji-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "omikuji-Prefix.pch"; sourceTree = "<group>"; };
+		A9DB1F4E1631A7C900E564A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9DB1F4F1631A7C900E564A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9DB1F511631A7C900E564A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A9DB1F531631A7C900E564A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A9DB1F581631A7C900E564A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A9DB1F5A1631A7C900E564A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9DB1F5B1631A7C900E564A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9DB1F621631AAC600E564A7 /* kuji_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kuji_1.jpg; sourceTree = "<group>"; };
+		A9DB1F631631AAC600E564A7 /* kuji_top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kuji_top.jpg; sourceTree = "<group>"; };
+		A9DB1F6A1631AC9100E564A7 /* kuji_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kuji_2.jpg; sourceTree = "<group>"; };
+		A9DB1F6B1631AC9100E564A7 /* kuji_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kuji_3.jpg; sourceTree = "<group>"; };
+		A9DB1F6C1631AC9100E564A7 /* kuji_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kuji_4.jpg; sourceTree = "<group>"; };
+		A9DB1F711631AC9900E564A7 /* bt_kuji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_kuji.png; sourceTree = "<group>"; };
+		A9DB1F721631AC9900E564A7 /* bt_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_top.png; sourceTree = "<group>"; };
+		A9DB1FA71631B3DD00E564A7 /* otsuge_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otsuge_1.png; sourceTree = "<group>"; };
+		A9DB1FA81631B3DD00E564A7 /* otsuge_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otsuge_2.png; sourceTree = "<group>"; };
+		A9DB1FA91631B3DD00E564A7 /* otsuge_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otsuge_3.png; sourceTree = "<group>"; };
+		A9DB1FAA1631B3DD00E564A7 /* otsuge_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otsuge_4.png; sourceTree = "<group>"; };
+		A9DB1FAB1631B3DD00E564A7 /* otsuge_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otsuge_5.png; sourceTree = "<group>"; };
+		A9DB1FAC1631B3DD00E564A7 /* otsuge_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otsuge_6.png; sourceTree = "<group>"; };
+		A9DB1FAD1631B3DD00E564A7 /* otsuge_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otsuge_7.png; sourceTree = "<group>"; };
+		A9DB1FB51631B46500E564A7 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		A9DB1FB71631B46800E564A7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DB1F381631A7C900E564A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DB1F401631A7C900E564A7 /* UIKit.framework in Frameworks */,
+				A9DB1F421631A7C900E564A7 /* Foundation.framework in Frameworks */,
+				A9DB1F441631A7C900E564A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9DB1F301631A7C900E564A7 = {
+			isa = PBXGroup;
+			children = (
+				A9DB1FB71631B46800E564A7 /* icon.png */,
+				A9DB1FB51631B46500E564A7 /* icon@2x.png */,
+				A9DB1F451631A7C900E564A7 /* omikuji */,
+				A9DB1F3E1631A7C900E564A7 /* Frameworks */,
+				A9DB1F3C1631A7C900E564A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DB1F3C1631A7C900E564A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DB1F3B1631A7C900E564A7 /* omikuji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DB1F3E1631A7C900E564A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9DB1F3F1631A7C900E564A7 /* UIKit.framework */,
+				A9DB1F411631A7C900E564A7 /* Foundation.framework */,
+				A9DB1F431631A7C900E564A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9DB1F451631A7C900E564A7 /* omikuji */ = {
+			isa = PBXGroup;
+			children = (
+				A9DB1F4E1631A7C900E564A7 /* AppDelegate.h */,
+				A9DB1F4F1631A7C900E564A7 /* AppDelegate.m */,
+				A9DB1F571631A7C900E564A7 /* MainStoryboard.storyboard */,
+				A9DB1F5A1631A7C900E564A7 /* ViewController.h */,
+				A9DB1F5B1631A7C900E564A7 /* ViewController.m */,
+				A9DB1F461631A7C900E564A7 /* Supporting Files */,
+			);
+			path = omikuji;
+			sourceTree = "<group>";
+		};
+		A9DB1F461631A7C900E564A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9DB1F621631AAC600E564A7 /* kuji_1.jpg */,
+				A9DB1F6A1631AC9100E564A7 /* kuji_2.jpg */,
+				A9DB1F6B1631AC9100E564A7 /* kuji_3.jpg */,
+				A9DB1F6C1631AC9100E564A7 /* kuji_4.jpg */,
+				A9DB1F631631AAC600E564A7 /* kuji_top.jpg */,
+				A9DB1F711631AC9900E564A7 /* bt_kuji.png */,
+				A9DB1F721631AC9900E564A7 /* bt_top.png */,
+				A9DB1FA71631B3DD00E564A7 /* otsuge_1.png */,
+				A9DB1FA81631B3DD00E564A7 /* otsuge_2.png */,
+				A9DB1FA91631B3DD00E564A7 /* otsuge_3.png */,
+				A9DB1FAA1631B3DD00E564A7 /* otsuge_4.png */,
+				A9DB1FAB1631B3DD00E564A7 /* otsuge_5.png */,
+				A9DB1FAC1631B3DD00E564A7 /* otsuge_6.png */,
+				A9DB1FAD1631B3DD00E564A7 /* otsuge_7.png */,
+				A9DB1F471631A7C900E564A7 /* omikuji-Info.plist */,
+				A9DB1F481631A7C900E564A7 /* InfoPlist.strings */,
+				A9DB1F4B1631A7C900E564A7 /* main.m */,
+				A9DB1F4D1631A7C900E564A7 /* omikuji-Prefix.pch */,
+				A9DB1F511631A7C900E564A7 /* Default.png */,
+				A9DB1F531631A7C900E564A7 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DB1F3A1631A7C900E564A7 /* omikuji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DB1F5F1631A7C900E564A7 /* Build configuration list for PBXNativeTarget "omikuji" */;
+			buildPhases = (
+				A9DB1F371631A7C900E564A7 /* Sources */,
+				A9DB1F381631A7C900E564A7 /* Frameworks */,
+				A9DB1F391631A7C900E564A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = omikuji;
+			productName = omikuji;
+			productReference = A9DB1F3B1631A7C900E564A7 /* omikuji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DB1F321631A7C900E564A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = myname;
+			};
+			buildConfigurationList = A9DB1F351631A7C900E564A7 /* Build configuration list for PBXProject "omikuji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9DB1F301631A7C900E564A7;
+			productRefGroup = A9DB1F3C1631A7C900E564A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DB1F3A1631A7C900E564A7 /* omikuji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DB1F391631A7C900E564A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DB1F4A1631A7C900E564A7 /* InfoPlist.strings in Resources */,
+				A9DB1F521631A7C900E564A7 /* Default.png in Resources */,
+				A9DB1F541631A7C900E564A7 /* Default@2x.png in Resources */,
+				A9DB1F591631A7C900E564A7 /* MainStoryboard.storyboard in Resources */,
+				A9DB1F641631AAC600E564A7 /* kuji_1.jpg in Resources */,
+				A9DB1F651631AAC600E564A7 /* kuji_top.jpg in Resources */,
+				A9DB1F6D1631AC9100E564A7 /* kuji_2.jpg in Resources */,
+				A9DB1F6E1631AC9100E564A7 /* kuji_3.jpg in Resources */,
+				A9DB1F6F1631AC9100E564A7 /* kuji_4.jpg in Resources */,
+				A9DB1F731631AC9900E564A7 /* bt_kuji.png in Resources */,
+				A9DB1F741631AC9900E564A7 /* bt_top.png in Resources */,
+				A9DB1FAE1631B3DD00E564A7 /* otsuge_1.png in Resources */,
+				A9DB1FAF1631B3DD00E564A7 /* otsuge_2.png in Resources */,
+				A9DB1FB01631B3DD00E564A7 /* otsuge_3.png in Resources */,
+				A9DB1FB11631B3DD00E564A7 /* otsuge_4.png in Resources */,
+				A9DB1FB21631B3DD00E564A7 /* otsuge_5.png in Resources */,
+				A9DB1FB31631B3DD00E564A7 /* otsuge_6.png in Resources */,
+				A9DB1FB41631B3DD00E564A7 /* otsuge_7.png in Resources */,
+				A9DB1FB61631B46500E564A7 /* icon@2x.png in Resources */,
+				A9DB1FB81631B46800E564A7 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DB1F371631A7C900E564A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DB1F4C1631A7C900E564A7 /* main.m in Sources */,
+				A9DB1F501631A7C900E564A7 /* AppDelegate.m in Sources */,
+				A9DB1F5C1631A7C900E564A7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9DB1F481631A7C900E564A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DB1F491631A7C900E564A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9DB1F571631A7C900E564A7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DB1F581631A7C900E564A7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DB1F5D1631A7C900E564A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9DB1F5E1631A7C900E564A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DB1F601631A7C900E564A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "omikuji/omikuji-Prefix.pch";
+				INFOPLIST_FILE = "omikuji/omikuji-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9DB1F611631A7C900E564A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "omikuji/omikuji-Prefix.pch";
+				INFOPLIST_FILE = "omikuji/omikuji-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DB1F351631A7C900E564A7 /* Build configuration list for PBXProject "omikuji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DB1F5D1631A7C900E564A7 /* Debug */,
+				A9DB1F5E1631A7C900E564A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DB1F5F1631A7C900E564A7 /* Build configuration list for PBXNativeTarget "omikuji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DB1F601631A7C900E564A7 /* Debug */,
+				A9DB1F611631A7C900E564A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DB1F321631A7C900E564A7 /* Project object */;
+}
