@@ -104,7 +104,38 @@
         for(int i = 0; i < fishArray.count; i++){
             UIImageView *w_fish = [fishArray objectAtIndex:i];
             //番号から移動スピードを調べて（vx,vy）、少し移動させた位置を求める
-            float wx =   
+            float wx =  w_fish.center.x + vx[w_fish.tag];
+            float wy =  w_fish.center.y + vy[w_fish.tag];
+            
+            //位置が水槽からはみ出していたら反対側に移動する
+            if(340 < wx){
+                wx = -10;
+            }
+            if(wx < -20){
+                wx = 330;
+            }
+            if(500 < wy){
+                wy = -10;
+            }
+            if(wy < -20){
+                wy = 490;
+            }
+            //金魚を指定した位置に移動させる
+            w_fish.center = CGPointMake(wx, wy);
+        }
+    }else if(0< stopCounter){
+        //すくい上げたときはゲームを一時停止して、カウントダウン
+        stopCounter--;
+        if(stopCounter == 0){
+            //カウントが0になったら、
+            //すくいあげたリストの金魚を元の大きさにして別のところに再登場させる
+            for(int i = 0; i < getFish.count; i++){
+                UIImageView *w_fish = [getFish objectAtIndex:i];
+                w_fish.transform = CGAffineTransformIdentify;
+                [self initFish:w_fish];
+            }
+            //ポイをもとの大きさに戻す
+            self.poi.transform = CGAffineTransformIdentify;
         }
     }
 }
