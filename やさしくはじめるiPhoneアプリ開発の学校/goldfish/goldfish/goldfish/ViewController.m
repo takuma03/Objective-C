@@ -67,7 +67,7 @@
 - (void)initGame{
     stopCounter = 0;
     //金魚を全て初期化する
-    for(int i = 0; i < fishArray.coutnt; i++){
+    for(int i = 0; i < fishArray.count; i++){
         UIImage *w_fish = [fishArray objectAtIndex:i];
         //各金魚の番号をtag変数に入れておいて、その金魚を初期化
         w_fish.tag = i;
@@ -131,11 +131,11 @@
             //すくいあげたリストの金魚を元の大きさにして別のところに再登場させる
             for(int i = 0; i < getFish.count; i++){
                 UIImageView *w_fish = [getFish objectAtIndex:i];
-                w_fish.transform = CGAffineTransformIdentify;
+                w_fish.transform = CGAffineTransformIdentity;
                 [self initFish:w_fish];
             }
             //ポイをもとの大きさに戻す
-            self.poi.transform = CGAffineTransformIdentify;
+            self.poi.transform = CGAffineTransformIdentity;
         }
     }
 }
