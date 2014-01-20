@@ -23,6 +23,16 @@
 		B8E9EAB1188A40D300A4D965 /* poi1.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9EAAC188A40D300A4D965 /* poi1.png */; };
 		B8E9EAB2188A40D300A4D965 /* poi2.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9EAAD188A40D300A4D965 /* poi2.png */; };
 		B8E9EAB3188A40D300A4D965 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E9EAAE188A40D300A4D965 /* water.png */; };
+		F1D1A8BC188D704000110265 /* bt_continue.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8B2188D704000110265 /* bt_continue.png */; };
+		F1D1A8BD188D704000110265 /* bt_start.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8B3188D704000110265 /* bt_start.png */; };
+		F1D1A8BE188D704000110265 /* ending.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8B4188D704000110265 /* ending.png */; };
+		F1D1A8BF188D704000110265 /* prest0.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8B5188D704000110265 /* prest0.png */; };
+		F1D1A8C0188D704000110265 /* prest1.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8B6188D704000110265 /* prest1.png */; };
+		F1D1A8C1188D704000110265 /* prest2.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8B7188D704000110265 /* prest2.png */; };
+		F1D1A8C2188D704000110265 /* prest3.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8B8188D704000110265 /* prest3.png */; };
+		F1D1A8C3188D704000110265 /* prest4.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8B9188D704000110265 /* prest4.png */; };
+		F1D1A8C4188D704000110265 /* prest5.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8BA188D704000110265 /* prest5.png */; };
+		F1D1A8C5188D704000110265 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D1A8BB188D704000110265 /* title.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +57,16 @@
 		B8E9EAAC188A40D300A4D965 /* poi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi1.png; sourceTree = "<group>"; };
 		B8E9EAAD188A40D300A4D965 /* poi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi2.png; sourceTree = "<group>"; };
 		B8E9EAAE188A40D300A4D965 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		F1D1A8B2188D704000110265 /* bt_continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_continue.png; sourceTree = "<group>"; };
+		F1D1A8B3188D704000110265 /* bt_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_start.png; sourceTree = "<group>"; };
+		F1D1A8B4188D704000110265 /* ending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ending.png; sourceTree = "<group>"; };
+		F1D1A8B5188D704000110265 /* prest0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prest0.png; sourceTree = "<group>"; };
+		F1D1A8B6188D704000110265 /* prest1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prest1.png; sourceTree = "<group>"; };
+		F1D1A8B7188D704000110265 /* prest2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prest2.png; sourceTree = "<group>"; };
+		F1D1A8B8188D704000110265 /* prest3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prest3.png; sourceTree = "<group>"; };
+		F1D1A8B9188D704000110265 /* prest4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prest4.png; sourceTree = "<group>"; };
+		F1D1A8BA188D704000110265 /* prest5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prest5.png; sourceTree = "<group>"; };
+		F1D1A8BB188D704000110265 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +131,16 @@
 		B8E9EA8E188A402D00A4D965 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1D1A8B2188D704000110265 /* bt_continue.png */,
+				F1D1A8B3188D704000110265 /* bt_start.png */,
+				F1D1A8B4188D704000110265 /* ending.png */,
+				F1D1A8B5188D704000110265 /* prest0.png */,
+				F1D1A8B6188D704000110265 /* prest1.png */,
+				F1D1A8B7188D704000110265 /* prest2.png */,
+				F1D1A8B8188D704000110265 /* prest3.png */,
+				F1D1A8B9188D704000110265 /* prest4.png */,
+				F1D1A8BA188D704000110265 /* prest5.png */,
+				F1D1A8BB188D704000110265 /* title.png */,
 				B8E9EA8F188A402D00A4D965 /* goldfish2-Info.plist */,
 				B8E9EA90188A402D00A4D965 /* InfoPlist.strings */,
 				B8E9EA93188A402D00A4D965 /* main.m */,
@@ -173,14 +203,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D1A8BC188D704000110265 /* bt_continue.png in Resources */,
+				F1D1A8BF188D704000110265 /* prest0.png in Resources */,
 				B8E9EA92188A402D00A4D965 /* InfoPlist.strings in Resources */,
+				F1D1A8BE188D704000110265 /* ending.png in Resources */,
+				F1D1A8C2188D704000110265 /* prest3.png in Resources */,
+				F1D1A8BD188D704000110265 /* bt_start.png in Resources */,
+				F1D1A8C4188D704000110265 /* prest5.png in Resources */,
 				B8E9EA9A188A402D00A4D965 /* Default.png in Resources */,
 				B8E9EA9C188A402D00A4D965 /* Default@2x.png in Resources */,
+				F1D1A8C0188D704000110265 /* prest1.png in Resources */,
 				B8E9EA9E188A402D00A4D965 /* Default-568h@2x.png in Resources */,
 				B8E9EAA1188A402D00A4D965 /* MainStoryboard.storyboard in Resources */,
 				B8E9EAAF188A40D300A4D965 /* fish1.png in Resources */,
 				B8E9EAB0188A40D300A4D965 /* fish2.png in Resources */,
+				F1D1A8C5188D704000110265 /* title.png in Resources */,
+				F1D1A8C3188D704000110265 /* prest4.png in Resources */,
 				B8E9EAB1188A40D300A4D965 /* poi1.png in Resources */,
+				F1D1A8C1188D704000110265 /* prest2.png in Resources */,
 				B8E9EAB2188A40D300A4D965 /* poi2.png in Resources */,
 				B8E9EAB3188A40D300A4D965 /* water.png in Resources */,
 			);
@@ -284,6 +324,7 @@
 				GCC_PREFIX_HEADER = "goldfish2/goldfish2-Prefix.pch";
 				INFOPLIST_FILE = "goldfish2/goldfish2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -295,6 +336,7 @@
 				GCC_PREFIX_HEADER = "goldfish2/goldfish2-Prefix.pch";
 				INFOPLIST_FILE = "goldfish2/goldfish2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -318,6 +360,7 @@
 				B8E9EAA9188A402D00A4D965 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

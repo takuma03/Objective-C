@@ -16,7 +16,12 @@
     float angles[10];
     //すくい上げたときにしばらくゲームを止めるカウンター
     int stopCounter;
-    
+    //ゲーム中かどうかを調べる変数
+    BOOL gameFlag;
+    //スコア
+    int score;
+    //残り回数
+    int remaining;
     //金魚リスト
     NSArray *fishArray;
     //すくった金魚リスト
@@ -34,5 +39,13 @@
 @property (weak, nonatomic) IBOutlet UIImageView *fish8;
 @property (weak, nonatomic) IBOutlet UIImageView *fish9;
 @property (weak, nonatomic) IBOutlet UIImageView *fish10;
+@property (weak, nonatomic) IBOutlet UIImageView *poiCount;
+@property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *endingView;
+@property (weak, nonatomic) IBOutlet UIButton *replayBtn;
+@property (weak, nonatomic) IBOutlet UIImageView *titleView;
+@property (weak, nonatomic) IBOutlet UIButton *startBtn;
+- (IBAction)replayGame:(id)sender;
+- (IBAction)startGame:(id)sender;
 
 @end

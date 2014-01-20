@@ -19,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     fishArray = [NSArray arrayWithObjects:self.fish1,self.fish2,self.fish3,self.fish4,self.fish5,self.fish6,self.fish7,self.fish8,self.fish9,self.fish10,nil];
-    [self initGame];
+    [self dispTitle];
     //0.05秒ごとにmainloopを繰り返し実行する
     [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(mainloop) userInfo:nil repeats:YES];
 }
@@ -36,6 +36,11 @@
     CGPoint location = [touch locationInView:self.view];
     //touchBeganで必要な処理
     [super touchesBegan:touches withEvent:event];
+    
+    if(gameFlag == NO) {
+        //ゲーム中でないなら、なにもしない
+        return;
+    }
     
     if(0 < stopCounter){
         //すくいあげているときは、なにもしない
@@ -54,6 +59,11 @@
     CGPoint location = [touch locationInView:self.view];
     //touchesMoved処理で必要な処理
     [super touchesMoved:touches withEvent:event];
+
+    if(gameFlag == NO) {
+        //ゲーム中でないなら、なにもしない
+        return;
+    }
     
     if(0 < stopCounter){
         //すくいあげてるときは、なにもしない
@@ -67,6 +77,11 @@
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
     //touchesEnded処理で必要な処理
     [super touchesEnded:touches withEvent:event];
+    
+    if(gameFlag == NO) {
+        //ゲーム中でないなら、なにもしない
+        return;
+    }
     
     if (0 < stopCounter) {
         //すくいあげているときは、なにもしない
@@ -91,6 +106,9 @@
             w_fish.alpha = 1.0;
             CGAffineTransform tf = w_fish.transform;
             w_fish.transform = CGAffineTransformScale(tf, 2, 2);
+            //スコアを追加する
+            score++;
+            self.scoreLabel.text = [NSString stringWithFormat:@"%d匹",score];
         }
     }
     
@@ -138,6 +156,10 @@
 
 //ゲーム中に繰り返し行う処理
 - (void)mainloop{
+    if(gameFlag == NO) {
+        //ゲーム中でないなら、なにもしない
+        return;
+    }
     if(stopCounter == 0){
         for(int i = 0; i < fishArray.count; i++){
             UIImageView *w_fish = [fishArray objectAtIndex:i];
@@ -174,13 +196,56 @@
             }
             //ポイをもとの大きさに戻す
             self.poi.transform = CGAffineTransformIdentity;
+            
+            //残り回数を減らして表示
+            remaining--;
+            [self.poiCount setImage:[UIImage imageNamed:[NSString stringWithFormat:@"prest%d.png",remaining]]];
+            if (remaining == 0) {
+                //残りが0なら、ゲームを止めてゲームオーバーとリプレイボタンを表示
+                gameFlag = NO;
+                self.replayBtn.hidden = NO;
+                self.endingView.hidden = NO;
+            }
         }
     }
+}
+
+//タイトル画面を表示
+- (void)dispTitle{
+    //ゲームは停止
+    gameFlag = NO;
+    //タイトル画面を表示
+    self.startBtn.hidden = NO;
+    self.titleView .hidden = NO;
+    //リプレイ画面は非表示
+    self.endingView.hidden = YES;
+    self.replayBtn.hidden = YES;
+}
+
+//ゲームを始める
+-(void)startGame{
+    [self initGame];
+    //タイトル画面を非表示
+    self.startBtn.hidden = YES;
+    self.titleView.hidden = YES;
+    //ゲームの初期化
+    score = 0;
+    remaining = 5;
+    self.scoreLabel.text = [NSString stringWithFormat:@"0匹"];
+    [self.poiCount setImage:[UIImage imageNamed:[NSString stringWithFormat:@"prest%d.png",remaining]]];
+    self.poi.center = CGPointMake(225,385);
+    gameFlag = YES;
 }
 
 
 
 
 
+- (IBAction)replayGame:(id)sender {
+    [self dispTitle];
+}
 
+- (IBAction)startGame:(id)sender {
+    [self startGame];
+}
 @end
