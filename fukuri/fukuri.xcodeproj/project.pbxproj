@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1CFAFF41893E64C00A17A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFAFF31893E64C00A17A89 /* Foundation.framework */; };
+		F1CFAFF61893E64C00A17A89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFAFF51893E64C00A17A89 /* CoreGraphics.framework */; };
+		F1CFAFF81893E64C00A17A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFAFF71893E64C00A17A89 /* UIKit.framework */; };
+		F1CFAFFE1893E64C00A17A89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1CFAFFC1893E64C00A17A89 /* InfoPlist.strings */; };
+		F1CFB0001893E64C00A17A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFAFFF1893E64C00A17A89 /* main.m */; };
+		F1CFB0041893E64C00A17A89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFB0031893E64C00A17A89 /* AppDelegate.m */; };
+		F1CFB0071893E64C00A17A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CFB0051893E64C00A17A89 /* Main.storyboard */; };
+		F1CFB00A1893E64C00A17A89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFB0091893E64C00A17A89 /* ViewController.m */; };
+		F1CFB00C1893E64C00A17A89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CFB00B1893E64C00A17A89 /* Images.xcassets */; };
+		F1CFB0131893E64C00A17A89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFB0121893E64C00A17A89 /* XCTest.framework */; };
+		F1CFB0141893E64C00A17A89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFAFF31893E64C00A17A89 /* Foundation.framework */; };
+		F1CFB0151893E64C00A17A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CFAFF71893E64C00A17A89 /* UIKit.framework */; };
+		F1CFB01D1893E64C00A17A89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1CFB01B1893E64C00A17A89 /* InfoPlist.strings */; };
+		F1CFB01F1893E64C00A17A89 /* fukuriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CFB01E1893E64C00A17A89 /* fukuriTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1CFB0161893E64C00A17A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1CFAFE81893E64C00A17A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1CFAFEF1893E64C00A17A89;
+			remoteInfo = fukuri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1CFAFF01893E64C00A17A89 /* fukuri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fukuri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CFAFF31893E64C00A17A89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1CFAFF51893E64C00A17A89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1CFAFF71893E64C00A17A89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1CFAFFB1893E64C00A17A89 /* fukuri-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fukuri-Info.plist"; sourceTree = "<group>"; };
+		F1CFAFFD1893E64C00A17A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1CFAFFF1893E64C00A17A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1CFB0011893E64C00A17A89 /* fukuri-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fukuri-Prefix.pch"; sourceTree = "<group>"; };
+		F1CFB0021893E64C00A17A89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1CFB0031893E64C00A17A89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1CFB0061893E64C00A17A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1CFB0081893E64C00A17A89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1CFB0091893E64C00A17A89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1CFB00B1893E64C00A17A89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1CFB0111893E64C00A17A89 /* fukuriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fukuriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CFB0121893E64C00A17A89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F1CFB01A1893E64C00A17A89 /* fukuriTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fukuriTests-Info.plist"; sourceTree = "<group>"; };
+		F1CFB01C1893E64C00A17A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1CFB01E1893E64C00A17A89 /* fukuriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fukuriTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CFAFED1893E64C00A17A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFAFF61893E64C00A17A89 /* CoreGraphics.framework in Frameworks */,
+				F1CFAFF81893E64C00A17A89 /* UIKit.framework in Frameworks */,
+				F1CFAFF41893E64C00A17A89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CFB00E1893E64C00A17A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFB0131893E64C00A17A89 /* XCTest.framework in Frameworks */,
+				F1CFB0151893E64C00A17A89 /* UIKit.framework in Frameworks */,
+				F1CFB0141893E64C00A17A89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1CFAFE71893E64C00A17A89 = {
+			isa = PBXGroup;
+			children = (
+				F1CFAFF91893E64C00A17A89 /* fukuri */,
+				F1CFB0181893E64C00A17A89 /* fukuriTests */,
+				F1CFAFF21893E64C00A17A89 /* Frameworks */,
+				F1CFAFF11893E64C00A17A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CFAFF11893E64C00A17A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFAFF01893E64C00A17A89 /* fukuri.app */,
+				F1CFB0111893E64C00A17A89 /* fukuriTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CFAFF21893E64C00A17A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFAFF31893E64C00A17A89 /* Foundation.framework */,
+				F1CFAFF51893E64C00A17A89 /* CoreGraphics.framework */,
+				F1CFAFF71893E64C00A17A89 /* UIKit.framework */,
+				F1CFB0121893E64C00A17A89 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1CFAFF91893E64C00A17A89 /* fukuri */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFB0021893E64C00A17A89 /* AppDelegate.h */,
+				F1CFB0031893E64C00A17A89 /* AppDelegate.m */,
+				F1CFB0051893E64C00A17A89 /* Main.storyboard */,
+				F1CFB0081893E64C00A17A89 /* ViewController.h */,
+				F1CFB0091893E64C00A17A89 /* ViewController.m */,
+				F1CFB00B1893E64C00A17A89 /* Images.xcassets */,
+				F1CFAFFA1893E64C00A17A89 /* Supporting Files */,
+			);
+			path = fukuri;
+			sourceTree = "<group>";
+		};
+		F1CFAFFA1893E64C00A17A89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFAFFB1893E64C00A17A89 /* fukuri-Info.plist */,
+				F1CFAFFC1893E64C00A17A89 /* InfoPlist.strings */,
+				F1CFAFFF1893E64C00A17A89 /* main.m */,
+				F1CFB0011893E64C00A17A89 /* fukuri-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1CFB0181893E64C00A17A89 /* fukuriTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFB01E1893E64C00A17A89 /* fukuriTests.m */,
+				F1CFB0191893E64C00A17A89 /* Supporting Files */,
+			);
+			path = fukuriTests;
+			sourceTree = "<group>";
+		};
+		F1CFB0191893E64C00A17A89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFB01A1893E64C00A17A89 /* fukuriTests-Info.plist */,
+				F1CFB01B1893E64C00A17A89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CFAFEF1893E64C00A17A89 /* fukuri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CFB0221893E64C00A17A89 /* Build configuration list for PBXNativeTarget "fukuri" */;
+			buildPhases = (
+				F1CFAFEC1893E64C00A17A89 /* Sources */,
+				F1CFAFED1893E64C00A17A89 /* Frameworks */,
+				F1CFAFEE1893E64C00A17A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fukuri;
+			productName = fukuri;
+			productReference = F1CFAFF01893E64C00A17A89 /* fukuri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1CFB0101893E64C00A17A89 /* fukuriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CFB0251893E64C00A17A89 /* Build configuration list for PBXNativeTarget "fukuriTests" */;
+			buildPhases = (
+				F1CFB00D1893E64C00A17A89 /* Sources */,
+				F1CFB00E1893E64C00A17A89 /* Frameworks */,
+				F1CFB00F1893E64C00A17A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1CFB0171893E64C00A17A89 /* PBXTargetDependency */,
+			);
+			name = fukuriTests;
+			productName = fukuriTests;
+			productReference = F1CFB0111893E64C00A17A89 /* fukuriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CFAFE81893E64C00A17A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "卓馬";
+				TargetAttributes = {
+					F1CFB0101893E64C00A17A89 = {
+						TestTargetID = F1CFAFEF1893E64C00A17A89;
+					};
+				};
+			};
+			buildConfigurationList = F1CFAFEB1893E64C00A17A89 /* Build configuration list for PBXProject "fukuri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1CFAFE71893E64C00A17A89;
+			productRefGroup = F1CFAFF11893E64C00A17A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CFAFEF1893E64C00A17A89 /* fukuri */,
+				F1CFB0101893E64C00A17A89 /* fukuriTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1CFAFEE1893E64C00A17A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFB00C1893E64C00A17A89 /* Images.xcassets in Resources */,
+				F1CFAFFE1893E64C00A17A89 /* InfoPlist.strings in Resources */,
+				F1CFB0071893E64C00A17A89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CFB00F1893E64C00A17A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFB01D1893E64C00A17A89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CFAFEC1893E64C00A17A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFB00A1893E64C00A17A89 /* ViewController.m in Sources */,
+				F1CFB0041893E64C00A17A89 /* AppDelegate.m in Sources */,
+				F1CFB0001893E64C00A17A89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CFB00D1893E64C00A17A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFB01F1893E64C00A17A89 /* fukuriTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1CFB0171893E64C00A17A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1CFAFEF1893E64C00A17A89 /* fukuri */;
+			targetProxy = F1CFB0161893E64C00A17A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1CFAFFC1893E64C00A17A89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CFAFFD1893E64C00A17A89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1CFB0051893E64C00A17A89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CFB0061893E64C00A17A89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1CFB01B1893E64C00A17A89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CFB01C1893E64C00A17A89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1CFB0201893E64C00A17A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1CFB0211893E64C00A17A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1CFB0231893E64C00A17A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fukuri/fukuri-Prefix.pch";
+				INFOPLIST_FILE = "fukuri/fukuri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1CFB0241893E64C00A17A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fukuri/fukuri-Prefix.pch";
+				INFOPLIST_FILE = "fukuri/fukuri-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F1CFB0261893E64C00A17A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fukuri.app/fukuri";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fukuri/fukuri-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fukuriTests/fukuriTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F1CFB0271893E64C00A17A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fukuri.app/fukuri";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fukuri/fukuri-Prefix.pch";
+				INFOPLIST_FILE = "fukuriTests/fukuriTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CFAFEB1893E64C00A17A89 /* Build configuration list for PBXProject "fukuri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CFB0201893E64C00A17A89 /* Debug */,
+				F1CFB0211893E64C00A17A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CFB0221893E64C00A17A89 /* Build configuration list for PBXNativeTarget "fukuri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CFB0231893E64C00A17A89 /* Debug */,
+				F1CFB0241893E64C00A17A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1CFB0251893E64C00A17A89 /* Build configuration list for PBXNativeTarget "fukuriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CFB0261893E64C00A17A89 /* Debug */,
+				F1CFB0271893E64C00A17A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CFAFE81893E64C00A17A89 /* Project object */;
+}
