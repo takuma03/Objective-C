@@ -31,9 +31,22 @@
 }
 
 - (IBAction)keisan:(id)sender {
-    NSString *keisankekka = self.kingaku.text;
+    NSString *a = self.kingaku.text;
+    NSString *b = self.riritsuView.text;
+    NSString *c = self.kikanView.text;
     
-    self.kekka.text = keisankekka;
+    double da = a.doubleValue;
+    double db = b.doubleValue;
+    double dc = c.doubleValue;
+    
+    double dk = da * pow((1 + db / 100), dc);
+    
+    NSString *k = [NSString stringWithFormat:@"%.0f",dk];
+    
+    NSString *h = [NSString stringWithFormat:@"%@%@",k,@"円"];
+    
+    
+    self.kekka.text = h;
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField{
